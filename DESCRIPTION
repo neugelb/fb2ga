@@ -1,0 +1,21 @@
+Package: fb2ga
+Type: Package
+Title: A package that makes it very easy to extract Facebook ad data and then upload it to Google Analytics
+Version: 0.1.0
+Author: Randall Helms
+Maintainer: Randall Helms <randall@neugelb.com>
+Description: A couple of useful functions to move data from Facebook Ads to Google Analytics.
+    Minimize your efforts!
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports:
+    tidyverse,
+    devtools,
+    googleAnalyticsR,
+    jsonlite,
+    lubridate,
+    fbRads (>= 3.1.0)
+Remotes:
+    daroczig/fbRads
+RoxygenNote: 6.1.1
