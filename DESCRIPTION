@@ -6,7 +6,7 @@ Author: Randall Helms
 Maintainer: Randall Helms <randall@neugelb.com>
 Description: A couple of useful functions to move data from Facebook Ads to Google Analytics.
     Minimize your efforts!
-License: What license is it under?
+License: MIT
 Encoding: UTF-8
 LazyData: true
 Imports:
