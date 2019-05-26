@@ -15,6 +15,7 @@ Imports:
     googleAnalyticsR,
     jsonlite,
     lubridate,
+    purrr,
     fbRads (>= 3.1.0)
 Remotes:
     daroczig/fbRads
