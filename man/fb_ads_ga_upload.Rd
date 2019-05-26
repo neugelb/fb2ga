@@ -4,14 +4,19 @@
 \alias{fb_ads_ga_upload}
 \title{fb_ads_ga_upload}
 \usage{
-fb_ads_ga_upload(fb_df, ga_property_id, dataset_name)
+fb_ads_ga_upload(fb_df, ga_property_id, dataset_id, account_id = NULL,
+  dataset_name = NULL)
 }
 \arguments{
 \item{fb_df}{The formatted data frame of advertisting data from Facebook, ready to upload}
 
 \item{ga_property_id}{Your web property ID from Facebook; it should be formatted something like 'UA-'}
 
-\item{dataset_name}{The name of your dataset}
+\item{dataset_id}{The custom data set ID}
+
+\item{account_id}{The overall account ID (optional)}
+
+\item{dataset_name}{The name of your dataset (optional)}
 }
 \description{
 Upload your data to GA
