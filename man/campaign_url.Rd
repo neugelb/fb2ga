@@ -4,8 +4,7 @@
 \alias{campaign_url}
 \title{campaign_url}
 \usage{
-campaign_url(url, source, medium = NULL, campaign_name = NULL,
-  term = NULL, content = NULL)
+campaign_url(url, source, medium, campaign_name = NULL)
 }
 \arguments{
 \item{url}{The URL you want to adorn}
@@ -15,10 +14,6 @@ campaign_url(url, source, medium = NULL, campaign_name = NULL,
 \item{medium}{The medium of the campaign, i.e. what type of campaign this is, usually would be something like 'cpc' or 'paid_social' (optional)}
 
 \item{campaign_name}{The name of your campaign (optional)}
-
-\item{term}{A way to identify paid keywords (optional)}
-
-\item{content}{A way to differentiate between different types of marketing content (for example in an A/B test) (optional)}
 }
 \description{
 Format your URL with UTM tracking codes
