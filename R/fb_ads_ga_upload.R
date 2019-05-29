@@ -16,7 +16,7 @@ fb_ads_ga_upload <- function(fb_df,ga_property_id,dataset_id,account_id=NULL,dat
 
   ga_auth()
 
-  if (is_empty(account_id)==FALSE) {
+  if (is_empty(account_id)==TRUE) {
 
     account <- ga_account_list() %>%
       tidycols() %>%
