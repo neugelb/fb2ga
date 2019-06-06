@@ -10,4 +10,4 @@ fb_ads2 <- fb_ads_ga_format(fb_ads,medium,source)
 
 #upload
 
-fb_ads_ga_upload(fb_ads2,property_id,dataset_id)
+fb_ads_ga_upload(fb_ads2,property_id,datasetid)
