@@ -75,4 +75,4 @@ datasetid <- 'Your Dataset ID from GA'
 fb_ads_ga_upload(fb_ads2,property_id,dataset_id=datasetid)
 ```
 
-Interested in help with your data? Get in touch at randall<at>neugelb.com
+Interested in help with your data? Get in touch at randall@neugelb.com
